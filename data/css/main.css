@@ -7,6 +7,10 @@ body {
 	margin: 0px;
 	border-width: 0px;
 	padding: 0px;
+
+    font-size: larger;
+    font-weight: 600;
+
 	background-color: var(--dark-gray);
 	font-family: 'Open Sans', sans-serif;
 }
