@@ -4,6 +4,9 @@
 }
 
 body {
-	background-color: linear-gradient(to bottom,var(--dark-gray),var(--light-gray));
+	margin: 0px;
+	border-width: 0px;
+	padding: 0px;
+	background-color: var(--dark-gray);
 	font-family: 'Open Sans', sans-serif;
 }
