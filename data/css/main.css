@@ -1,7 +1,9 @@
 :root {
-	--light-gray: #34495e;
+	--dark-gray: #2c3e50;
+	--light-gray:  #34495e;
 }
 
 body {
-	background-color: var(--light-gray);
+	background-color: linear-gradient(var(--dark-gray),var(--light-gray));
+	font-family: 'Open Sans', sans-serif;
 }
