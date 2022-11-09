@@ -21,13 +21,25 @@ body {
 }
 
 main {
+	margin: auto;
 	height: 80vh;
 	width: 40vh;
 	background-color: var(--light-bluegrey);
 }
 
+nav {
+	display: table;
+	width: 100%;
+	table-layout: fixed;
+}
+
+nav span {
+	display: table-cell;
+	text-align: center;
+}
+
 button {
-	width: 33.33%;
+	background-color: var(--dark-bluegrey);
 	border: none;
 	color: var(--white);
 	font-family: 'Space Mono', monospace;
