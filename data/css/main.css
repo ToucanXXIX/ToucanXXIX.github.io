@@ -1,5 +1,5 @@
 :root {
-	--dark-bluegrey: #2c3e50;
+	--dark-bluegrey: #0f1720;
 	--light-bluegrey:  #34495e;
 	--white:  #ecf0f1;
 
@@ -12,10 +12,16 @@ body {
 	margin: 0px;
 
     font-size: larger;
-    font-weight: 600;
+    font-weight: 400;
 
 	background-color: var(--dark-bluegrey);
 	
 	font-family: 'Space Mono', monospace;
 	color: var(--white);
+}
+
+main {
+	height: 80vh;
+	width: 40vh;
+	background-color: var(--light-bluegrey);
 }
