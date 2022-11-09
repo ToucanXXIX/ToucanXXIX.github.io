@@ -1,6 +1,8 @@
 :root {
 	--dark-bluegrey: #0f1720;
 	--light-bluegrey:  #34495e;
+	--lighter-bluegrey:  #586f85;
+	--lightest-bluegrey:  #a7b9ca;
 	--white:  #b1b1b1;
 
 	margin: 0px;
@@ -21,7 +23,7 @@ body {
 
 .main {
 	background: var(--dark-bluegrey);
-	padding: 1rem;
+	padding: .5rem;
 	margin: auto;
 	margin-bottom: 10%;
 	margin-top: 10%;
@@ -36,13 +38,25 @@ body {
 }
 
 .button {
+	color: var(--white);
 	border: none;
-	padding-top: 1rem;
-	padding-bottom: 1rem;
-	padding-left: 100%;
-	padding-right: 100%;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	width:32%;
 
 	font-family: inherit;
 	font-size: inherit;
 	font-weight: inherit;
+
+	transition: 0.3s;
+	background: var(--light-bluegrey);
+}
+
+.button:hover {
+	background: var(--lighter-bluegrey);
+}
+
+.button:active {
+	color: black;
+	background: var(--lightest-bluegrey);
 }
