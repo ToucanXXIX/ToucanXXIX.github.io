@@ -16,7 +16,7 @@
 }
 
 body {
-	background-color: var(--dark-bluegrey);
+	background-color: var(--light-bluegrey);
 }
 
 .main {
@@ -29,5 +29,20 @@ body {
 }
 
 .navbar {
+	display: flex;
+	justify-content: space-between;
+	margin:auto;
+	width: 100%;
+}
 
+.button {
+	border: none;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	padding-left: 100%;
+	padding-right: 100%;
+
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
 }
