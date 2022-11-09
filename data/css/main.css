@@ -25,3 +25,13 @@ main {
 	width: 40vh;
 	background-color: var(--light-bluegrey);
 }
+
+button {
+	width: 33.33%;
+	border: none;
+	color: var(--white);
+	font-family: 'Space Mono', monospace;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+}
