@@ -1,13 +1,18 @@
 :root {
 	--dark-bluegrey: #0f1720;
 	--light-bluegrey:  #34495e;
-	--white:  #ecf0f1;
+	--white:  #b1b1b1;
 
 	margin: 0px;
 	border-width: 0px;
 	padding: 0px;
 
 	box-sizing: border-box;
+
+	font-family: 'Space Mono', monospace;
+	font-size: 20px;
+	font-weight: 400;
+	color : var(--white);
 }
 
 body {
@@ -15,7 +20,11 @@ body {
 }
 
 .main {
+	background: var(--dark-bluegrey);
+	padding: 1rem;
 	margin: auto;
+	margin-bottom: 10%;
+	margin-top: 10%;
 	width: 30%;
 }
 
