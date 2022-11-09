@@ -6,44 +6,19 @@
 	margin: 0px;
 	border-width: 0px;
 	padding: 0px;
+
+	box-sizing: border-box;
 }
 
 body {
-	margin: 0px;
-
-    font-size: larger;
-    font-weight: 400;
-
 	background-color: var(--dark-bluegrey);
-	
-	font-family: 'Space Mono', monospace;
-	color: var(--white);
 }
 
-main {
+.main {
 	margin: auto;
-	height: 80vh;
-	width: 40vh;
-	background-color: var(--light-bluegrey);
+	width: 30%;
 }
 
-nav {
-	display: table;
-	width: 100%;
-	table-layout: fixed;
-}
+.navbar {
 
-nav span {
-	display: table-cell;
-	text-align: center;
-}
-
-button {
-	background-color: var(--dark-bluegrey);
-	border: none;
-	color: var(--white);
-	font-family: 'Space Mono', monospace;
-	display: inline-block;
-	text-align: center;
-	cursor: pointer;
 }
