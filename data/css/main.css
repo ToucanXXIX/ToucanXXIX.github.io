@@ -1,7 +1,7 @@
 :root {
 	--dark-bluegrey: #2c3e50;
 	--light-bluegrey:  #34495e;
-	--light-grey:  #bdc3c7;
+	--white:  #ecf0f1;
 
 	margin: 0px;
 	border-width: 0px;
@@ -9,11 +9,13 @@
 }
 
 body {
+	margin: 0px;
+
     font-size: larger;
     font-weight: 600;
 
 	background-color: var(--dark-bluegrey);
 	
-	font-family: 'Open Sans', sans-serif;
-	color: var(--light-grey);
+	font-family: 'Space Mono', monospace;
+	color: var(--white);
 }
