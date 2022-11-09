@@ -1,9 +1,9 @@
 :root {
 	--dark-bluegrey: #0f1720;
 	--light-bluegrey:  #34495e;
-	--lighter-bluegrey:  #586f85;
+	--lighter-bluegrey:  #4f6983;
 	--lightest-bluegrey:  #a7b9ca;
-	--white:  #b1b1b1;
+	--white:  #e1e1e1;
 
 	margin: 0px;
 	border-width: 0px;
@@ -22,12 +22,17 @@ body {
 }
 
 .main {
+	display: flex;
+    flex-direction: column;
 	background: var(--dark-bluegrey);
 	padding: .5rem;
 	margin: auto;
-	margin-bottom: 10%;
-	margin-top: 10%;
+	margin-top: 5%;
 	width: 30%;
+
+    top: 50%;
+    transform: translateY(50%);
+
 }
 
 .navbar {
@@ -38,10 +43,11 @@ body {
 }
 
 .button {
+	cursor:pointer;
 	color: var(--white);
 	border: none;
-	padding-top: 1em;
-	padding-bottom: 1em;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 	width:32%;
 
 	font-family: inherit;
