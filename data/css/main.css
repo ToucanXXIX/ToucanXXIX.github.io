@@ -1,20 +1,19 @@
 :root {
 	--dark-bluegrey: #2c3e50;
 	--light-bluegrey:  #34495e;
-	--light-grey:  #95a5a6;
-}
+	--light-grey:  #bdc3c7;
 
-body {
 	margin: 0px;
 	border-width: 0px;
 	padding: 0px;
+}
 
+body {
     font-size: larger;
     font-weight: 600;
 
 	background-color: var(--dark-bluegrey);
 	
-
 	font-family: 'Open Sans', sans-serif;
 	color: var(--light-grey);
 }
