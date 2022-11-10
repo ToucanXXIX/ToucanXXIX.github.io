@@ -66,3 +66,12 @@ body {
 	color: black;
 	background: var(--lightest-bluegrey);
 }
+
+a.link {
+	color: var(--white);
+	text-decoration: none;
+}
+a.link:visited {
+	color: var(--lighter-bluegrey);
+}
+
