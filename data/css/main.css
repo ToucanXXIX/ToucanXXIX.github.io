@@ -68,10 +68,17 @@ body {
 }
 
 a.link {
+	transition: 0.3s;
 	color: var(--white);
 	text-decoration: none;
 }
 a.link:visited {
 	color: var(--lighter-bluegrey);
+}
+a.link:hover {
+	padding-left: 1.5rem
+}
+a.link:visited:hover {
+	padding-left: 1.5rem;
 }
 
