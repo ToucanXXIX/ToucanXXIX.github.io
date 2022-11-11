@@ -29,7 +29,7 @@ body {
 	margin: auto;
 	margin-top: 5%;
 	width: 35%;
-	min-width: 320px;
+	min-width: 370px;
 
     top: 50%;
     transform: translateY(50%);
@@ -39,7 +39,6 @@ body {
 .navbar {
 	display: flex;
 	justify-content: space-between;
-	margin:auto;
 	width: 100%;
 }
 
@@ -47,8 +46,8 @@ body {
 	cursor:pointer;
 	color: var(--white);
 	border: none;
-	padding-top: 1rem;
-	padding-bottom: 1rem;
+	padding-top: .7rem;
+	padding-bottom: .7rem;
 	width:48.5%;
 	min-width: 150px;
 
