@@ -30,6 +30,7 @@ body {
 	margin-top: 5%;
 	width: 35%;
 	min-width: 370px;
+	max-width: 420px;
 
     top: 50%;
     transform: translateY(50%);
