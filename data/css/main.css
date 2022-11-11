@@ -12,7 +12,7 @@
 	box-sizing: border-box;
 
 	font-family: 'Space Mono', monospace;
-	font-size: 21px;
+	font-size: 24px;
 	font-weight: 400;
 	color : var(--white);
 }
@@ -28,7 +28,8 @@ body {
 	padding: .5rem;
 	margin: auto;
 	margin-top: 5%;
-	width: 30%;
+	width: 35%;
+	min-width: 320px;
 
     top: 50%;
     transform: translateY(50%);
@@ -49,6 +50,7 @@ body {
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 	width:48.5%;
+	min-width: 150px;
 
 	font-family: inherit;
 	font-size: inherit;
@@ -72,13 +74,15 @@ a.link {
 	color: var(--white);
 	text-decoration: none;
 }
+
 a.link:visited {
 	color: var(--lighter-bluegrey);
 }
-a.link:hover {
-	padding-left: 1.5rem
-}
-a.link:visited:hover {
-	padding-left: 1.5rem;
-}
 
+a.link:hover {
+	padding-left: 1rem;
+}
+a.link:hover::before {
+	color: var(--white);
+	content: "> ";
+}
