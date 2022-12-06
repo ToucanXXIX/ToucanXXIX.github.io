@@ -81,8 +81,10 @@ a.link:visited {
 
 a.link:hover {
 	padding-left: 1rem;
+	text-decoration: underline;
 }
 a.link::before {
 	color: var(--white);
 	content: "> ";
+	text-decoration: none;
 }
