@@ -17,7 +17,10 @@
 	color : var(--white);
 }
 
-body {
+html,body {
+	height : 100%;
+	padding: 0;
+	margin: 0;
 	background-color: var(--light-bluegrey);
 }
 
@@ -27,7 +30,6 @@ body {
 	background: var(--dark-bluegrey);
 	padding: .5rem;
 	margin: auto;
-	margin-top: 5%;
 	width: 35%;
 	min-width: 370px;
 	max-width: 420px;
