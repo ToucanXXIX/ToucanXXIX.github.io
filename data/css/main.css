@@ -31,8 +31,8 @@ html,body {
 	padding: .5rem;
 	margin: auto;
 	width: 35%;
-	min-width: 370px;
-	max-width: 420px;
+	min-width: 430px;
+	max-width: 520px;
 
     top: 50%;
     transform: translateY(50%);
