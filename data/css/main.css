@@ -39,6 +39,10 @@ html,body {
 
 }
 
+.contents {
+	padding: .5rem;
+}
+
 .navbar {
 	display: flex;
 	justify-content: space-between;
